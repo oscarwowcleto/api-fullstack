@@ -1,12 +1,6 @@
 /* eslint-disable */
 import { Injectable } from '@nestjs/common';
-
-interface Usuario {
-  id: number;
-  nombre: string;
-  email: string;
-  edad: number;
-}
+import { Usuario } from './entities/usuario.entity';
 
 @Injectable()
 export class UsuariosService {
